@@ -49,11 +49,11 @@
                   <span class="s_website_form_mark">                      *</span>
                 </label>
                 <select class="form-control s_website_form_input" name="Employment status" required="1" id="oxhyanw9568" style="">
-                  <option value="employed_fulltime">employed_fulltime</option>
-                  <option value="employed_parttime">employed_parttime</option>
-                  <option value="self_employed">self_employed</option>
-                  <option value="unemployed">unemployed</option>
-                  <option value="others">others</option>
+                  <option value="employed_fulltime">Employed - Full time</option>
+                  <option value="employed_parttime">Employed - Part time</option>
+                  <option value="self_employed">Self-employed</option>
+                  <option value="unemployed">Unemployed</option>
+                  <option value="others">Others</option>
                 </select>
               </div>
               <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-12 s_website_form_custom s_website_form_required" data-type="many2one" data-name="Field">
@@ -62,9 +62,9 @@
                   <span class="s_website_form_mark">                                                                                                                                                              *</span>
                 </label>
                 <select class="form-control s_website_form_input" name="Annual household income" required="1" id="oyvbbqo33qde" style="">
-                  <option value="0_5000" selected="selected">below 5000</option>
+                  <option value="0_5000" selected="selected">Below 5000</option>
                   <option value="5001_10000">5001 to 10000</option>
-                  <option value="10000_plus">above 10000</option>
+                  <option value="10000_plus">Above 10000</option>
                 </select>
               </div>
               <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="selection" data-name="Field">
@@ -77,7 +77,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x40" name="Vehicles owned" value="bicycle" required="1" data-fill-with="undefined"/>
                       <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x40">
-                    bicycle
+                    Bicycle
                 </label>
                     </div>
                   </div>
@@ -85,7 +85,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x41" name="Vehicles owned" value="two_wheeler" required="1"/>
                       <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x41">
-                    two_wheeler
+                    Two wheeler
                 </label>
                     </div>
                   </div>
@@ -93,7 +93,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x42" name="Vehicles owned" value="three_wheeler" required="1"/>
                       <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x42">
-                    three_wheeler
+                    Three wheeler
                 </label>
                     </div>
                   </div>
@@ -101,7 +101,15 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x43" name="Vehicles owned" value="four_wheeler" required="1"/>
                       <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x43">
-                    four_wheeler
+                    Four wheeler
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x44" name="Vehicles owned" value="none" required="1" data-fill-with="undefined"/>
+                      <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x44">
+                    None
                 </label>
                     </div>
                   </div>
@@ -120,8 +128,8 @@
                   <span class="s_website_form_mark">                 *</span>
                 </label>
                 <select class="form-control s_website_form_input" name="Disability status" required="1" id="ojs0ycp7kxf" style="">
-                  <option value="disabled">disabled</option>
-                  <option value="not_disabled">not_disabled</option>
+                  <option value="disabled">Disabled</option>
+                  <option value="not_disabled">Not disabled</option>
                 </select>
               </div>
               <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6" data-type="many2one" data-name="Field">
@@ -130,8 +138,8 @@
                   <span class="s_website_form_mark">         *</span>
                 </label>
                 <select class="form-control s_website_form_input" name="Immigration status" required="1" id="odrym9gkcyh" style="">
-                  <option value="immigrant">immigrant</option>
-                  <option value="non_immigrant">non_immigrant</option>
+                  <option value="immigrant">Immigrant</option>
+                  <option value="non_immigrant">Non-immigrant</option>
                 </select>
               </div>
               <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="selection" data-name="Field">
@@ -144,7 +152,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn90" name="Notification preference" value="none" required="1" data-fill-with="undefined"/>
                       <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn90">
-                    none
+                    None
                 </label>
                     </div>
                   </div>
@@ -152,7 +160,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn91" name="Notification preference" value="sms" required="1"/>
                       <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn91">
-                    sms
+                    SMS
                 </label>
                     </div>
                   </div>
@@ -160,7 +168,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn92" name="Notification preference" value="email" required="1"/>
                       <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn92">
-                    email
+                    Email
                 </label>
                     </div>
                   </div>
@@ -168,7 +176,7 @@
                     <div class="form-check">
                       <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn93" name="Notification preference" value="both" required="1"/>
                       <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn93">
-                    both
+                    Both
                 </label>
                     </div>
                   </div>
