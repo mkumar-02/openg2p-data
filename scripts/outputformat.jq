@@ -49,6 +49,6 @@
       }
     }
   ],
-  "gender": .input["Gender"],
+  "gender": (.input["Gender"] | ascii_downcase),
   "birthdate": (.input["Date of birth"] | strptime("%d-%m-%Y") | strftime("%Y-%m-%d") )
 }
