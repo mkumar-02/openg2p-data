@@ -1,0 +1,196 @@
+<t t-name="website.safety-net-program-form">
+  <t t-call="g2p_self_service_portal.self_service_form_template">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+        <div class="container">
+          <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-pre-fill="true" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="res.partner">
+            <div class="s_website_form_rows row s_col_no_bgcolor">
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
+                <label class="s_website_form_label" style="width: 200px" for="ose5r6b2mbd">
+                  <span class="s_website_form_label_content">Household Id</span>
+                  <span class="s_website_form_mark">     *</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="Household Id" required="1" value="" placeholder="" id="ose5r6b2mbd" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6" data-type="integer" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="o6fj0fckkn3o">
+                  <span class="s_website_form_label_content">Household size</span>
+                  <span class="s_website_form_mark">         *</span>
+                </label>
+                <input type="number" class="form-control s_website_form_input" name="Household size" step="1" required="1" value="" placeholder="" id="o6fj0fckkn3o" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-6 s_website_form_custom s_website_form_required" data-type="integer" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="oah7ytan0d0w">
+                  <span class="s_website_form_label_content">No. of children</span>
+                  <span class="s_website_form_mark">           *</span>
+                </label>
+                <input type="number" class="form-control s_website_form_input" name="No of children" step="1" required="1" value="" placeholder="" id="oah7ytan0d0w" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-6 s_website_form_custom s_website_form_required" data-type="many2one" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="o7pi1jr9k2h">
+                  <span class="s_website_form_label_content">Own home?</span>
+                  <span class="s_website_form_mark">         *</span>
+                </label>
+                <select class="form-control s_website_form_input" name="Own home?" required="1" id="o7pi1jr9k2h" style="">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6" data-type="integer" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="oot8n11jugks">
+                  <span class="s_website_form_label_content">Size of home (sq. ft)</span>
+                  <span class="s_website_form_mark">                   *</span>
+                </label>
+                <input type="number" class="form-control s_website_form_input" name="Size of home" step="1" required="1" value="" placeholder="" id="oot8n11jugks" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-12 s_website_form_custom s_website_form_required" data-type="many2one" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="oxhyanw9568">
+                  <span class="s_website_form_label_content">Employment status</span>
+                  <span class="s_website_form_mark">                      *</span>
+                </label>
+                <select class="form-control s_website_form_input" name="Employment status" required="1" id="oxhyanw9568" style="">
+                  <option value="employed_fulltime">Employed - Full time</option>
+                  <option value="employed_parttime">Employed - Part time</option>
+                  <option value="self_employed">Self-employed</option>
+                  <option value="unemployed">Unemployed</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-12 s_website_form_custom s_website_form_required" data-type="many2one" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="oyvbbqo33qde">
+                  <span class="s_website_form_label_content">Annual household income (USD)</span>
+                  <span class="s_website_form_mark">                                                                                                                                                              *</span>
+                </label>
+                <select class="form-control s_website_form_input" name="Annual household income" required="1" id="oyvbbqo33qde" style="">
+                  <option value="0_5000" selected="selected">Below 5000</option>
+                  <option value="5001_10000">5001 to 10000</option>
+                  <option value="10000_plus">Above 10000</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="selection" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="oc3yh5rm6x4">
+                  <span class="s_website_form_label_content">Vehicles owned</span>
+                  <span class="s_website_form_mark">                  *</span>
+                </label>
+                <div class="row s_col_no_resize s_col_no_bgcolor s_website_form_multiple" data-name="Vehicles owned" data-display="horizontal">
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x40" name="Vehicles owned" value="bicycle" required="1" data-fill-with="undefined"/>
+                      <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x40">
+                    Bicycle
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x41" name="Vehicles owned" value="two_wheeler" required="1"/>
+                      <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x41">
+                    Two wheeler
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x42" name="Vehicles owned" value="three_wheeler" required="1"/>
+                      <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x42">
+                    Three wheeler
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x43" name="Vehicles owned" value="four_wheeler" required="1"/>
+                      <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x43">
+                    Four wheeler
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="oc3yh5rm6x44" name="Vehicles owned" value="none" required="1" data-fill-with="undefined"/>
+                      <label class="form-check-label s_website_form_check_label" for="oc3yh5rm6x44">
+                    None
+                </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="integer" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="ou41jp1djpjl">
+                  <span class="s_website_form_label_content">Account number</span>
+                  <span class="s_website_form_mark">     *</span>
+                </label>
+                <input type="number" class="form-control s_website_form_input" name="Account number" step="1" required="1" value="" placeholder="" id="ou41jp1djpjl" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-6 s_website_form_custom s_website_form_required" data-type="many2one" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="ojs0ycp7kxf">
+                  <span class="s_website_form_label_content">Disability status</span>
+                  <span class="s_website_form_mark">                 *</span>
+                </label>
+                <select class="form-control s_website_form_input" name="Disability status" required="1" id="ojs0ycp7kxf" style="">
+                  <option value="disabled">Disabled</option>
+                  <option value="not_disabled">Not disabled</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6" data-type="many2one" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="odrym9gkcyh">
+                  <span class="s_website_form_label_content">Immigration status</span>
+                  <span class="s_website_form_mark">         *</span>
+                </label>
+                <select class="form-control s_website_form_input" name="Immigration status" required="1" id="odrym9gkcyh" style="">
+                  <option value="immigrant">Immigrant</option>
+                  <option value="non_immigrant">Non-immigrant</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="selection" data-name="Field">
+                <label class="s_website_form_label " style="width: 200px" for="o1q3nh361qn9">
+                  <span class="s_website_form_label_content">Notification preference</span>
+                  <span class="s_website_form_mark">                 *</span>
+                </label>
+                <div class="row s_col_no_resize s_col_no_bgcolor s_website_form_multiple" data-name="Notification preference" data-display="horizontal">
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn90" name="Notification preference" value="none" required="1" data-fill-with="undefined"/>
+                      <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn90">
+                    None
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn91" name="Notification preference" value="sms" required="1"/>
+                      <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn91">
+                    SMS
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn92" name="Notification preference" value="email" required="1"/>
+                      <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn92">
+                    Email
+                </label>
+                    </div>
+                  </div>
+                  <div class="radio col-12 col-lg-4 col-md-6">
+                    <div class="form-check">
+                      <input type="radio" class="s_website_form_input form-check-input" id="o1q3nh361qn93" name="Notification preference" value="both" required="1"/>
+                      <label class="form-check-label s_website_form_check_label" for="o1q3nh361qn93">
+                    Both
+                </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group col-12 s_website_form_submit" data-name="Submit Button" data-original-title="" title="" aria-describedby="tooltip744723">
+                <div style="width: 200px;" class="s_website_form_label"/>
+                <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send" data-original-title="" title="" aria-describedby="popover839653">Submit</a>
+                <span id="s_website_form_result"/>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
