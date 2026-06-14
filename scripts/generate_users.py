@@ -13,11 +13,10 @@ SEED = 7
 random.seed(SEED)
 
 DP_ROLES_POOL = [
-    "DP_social_protection",
-    "DP_health",
-    "DP_education",
-    "DP_disaster_response",
-    "DP_food_security",
+    "DP_region_kilima",
+    "DP_region_faraja",
+    "DP_region_jasiri",
+    "DP_region_chakula",
 ]
 
 ROLE_POOL = ["registry_user", "registry_admin", "registry_approver"]

@@ -11,8 +11,8 @@
       "registry_admin"
     ],
     "dp_roles": [
-      "DP_health",
-      "DP_disaster_response"
+      "DP_region_faraja",
+      "DP_region_chakula"
     ]
   },
   {
@@ -27,9 +27,9 @@
       "registry_admin"
     ],
     "dp_roles": [
-      "DP_social_protection",
-      "DP_food_security",
-      "DP_education"
+      "DP_region_kilima",
+      "DP_region_chakula",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -44,7 +44,8 @@
       "registry_admin"
     ],
     "dp_roles": [
-      "DP_education"
+      "DP_region_kilima",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -59,9 +60,7 @@
       "registry_approver"
     ],
     "dp_roles": [
-      "DP_social_protection",
-      "DP_health",
-      "DP_food_security"
+      "DP_region_kilima"
     ]
   },
   {
@@ -76,7 +75,7 @@
       "registry_approver"
     ],
     "dp_roles": [
-      "DP_disaster_response"
+      "DP_region_chakula"
     ]
   },
   {
@@ -91,8 +90,8 @@
       "registry_approver"
     ],
     "dp_roles": [
-      "DP_social_protection",
-      "DP_health"
+      "DP_region_kilima",
+      "DP_region_chakula"
     ]
   },
   {
@@ -106,7 +105,7 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security"
+      "DP_region_chakula"
     ]
   },
   {
@@ -120,8 +119,7 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_social_protection",
-      "DP_food_security"
+      "DP_region_kilima"
     ]
   },
   {
@@ -135,7 +133,7 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security"
+      "DP_region_kilima"
     ]
   },
   {
@@ -149,7 +147,9 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security"
+      "DP_region_chakula",
+      "DP_region_kilima",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -163,9 +163,7 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_disaster_response",
-      "DP_social_protection",
-      "DP_food_security"
+      "DP_region_faraja"
     ]
   },
   {
@@ -179,7 +177,8 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security"
+      "DP_region_chakula",
+      "DP_region_kilima"
     ]
   },
   {
@@ -193,7 +192,9 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_education"
+      "DP_region_kilima",
+      "DP_region_jasiri",
+      "DP_region_faraja"
     ]
   },
   {
@@ -207,8 +208,9 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_health",
-      "DP_social_protection"
+      "DP_region_faraja",
+      "DP_region_kilima",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -222,9 +224,8 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_education",
-      "DP_health",
-      "DP_social_protection"
+      "DP_region_kilima",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -238,9 +239,9 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security",
-      "DP_health",
-      "DP_disaster_response"
+      "DP_region_kilima",
+      "DP_region_jasiri",
+      "DP_region_chakula"
     ]
   },
   {
@@ -254,7 +255,9 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security"
+      "DP_region_faraja",
+      "DP_region_chakula",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -268,9 +271,8 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_social_protection",
-      "DP_food_security",
-      "DP_education"
+      "DP_region_chakula",
+      "DP_region_jasiri"
     ]
   },
   {
@@ -284,7 +286,8 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_disaster_response"
+      "DP_region_jasiri",
+      "DP_region_faraja"
     ]
   },
   {
@@ -298,9 +301,7 @@
       "registry_user"
     ],
     "dp_roles": [
-      "DP_food_security",
-      "DP_disaster_response",
-      "DP_health"
+      "DP_region_faraja"
     ]
   }
 ]
